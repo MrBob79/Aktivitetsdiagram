@@ -6,6 +6,29 @@ namespace Aktivitetsdiagram
     {
         private static void Main(string[] args)
         {
+            int Money = 15000;      // Start kapital
+            int Age;                // Åldern på användaren som lagras
+            int UserAge;         // Användarens ålder
+            int UserSaves;          // Hur mycket användare vill spara till
+            int Diff;               // Användarens pengar - hur mycket användaren vill spara till
+            bool Retire = false;    // Kontrollerar när och om användaren gått i pension
+
+
+
+
+                
+
+            Console.WriteLine("Hej och välkommen till detta Sparmålsprogram");
+            Console.WriteLine("Här kommer några frågor du behöver svara på!");
+
+            Console.WriteLine("Hur gammal är du?");
+            UserAge = Console.ReadLine();
+
+            Console.WriteLine("Skriv in ditt sparmål?");
+            UserSaves = Console.ReadLIne();
+
+
+            
             // Start
             // Skriv in din ålder
             // Skriv in sparmål
